@@ -1,0 +1,10 @@
+dependencies:
+  flutter:
+    sdk: flutter
+  # สำหรับเชื่อมต่อ Gemini AI
+  google_generative_ai: ^0.4.6
+  # สำหรับดึงข้อมูลจาก Firebase (ถ้าโปรเจกต์มีอยู่แล้วข้ามได้)
+  cloud_firestore: ^5.4.4
+  firebase_core: ^3.6.0
+  # สำหรับแสดงผลข้อความแบบ Markdown (ตัวหนา, ลิสต์)
+  flutter_markdown: ^0.7.3
